@@ -708,6 +708,11 @@ export const actionChangeFontFamily = register({
         text: t("labels.code"),
         icon: FontFamilyCodeIcon,
       },
+      {
+        value: FONT_FAMILY.Xiaoke,
+        text: t("labels.code"),
+        icon: FontFamilyCodeIcon,
+      },
     ];
 
     return (

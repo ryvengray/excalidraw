@@ -36,3 +36,10 @@
   font-display: swap;
   font-weight: 700;
 }
+
+
+@font-face {
+  font-family: "Xiaoke";
+  src: url("Xiaoke.ttf");
+  font-display: swap;
+}
