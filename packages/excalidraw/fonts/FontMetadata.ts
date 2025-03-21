@@ -36,6 +36,15 @@ export interface FontMetadata {
 }
 
 export const FONT_METADATA: Record<number, FontMetadata> = {
+  [FONT_FAMILY.CustomChinese]: {
+    metrics: {
+      unitsPerEm: 1000,
+      ascender: 880,
+      descender: -120,
+      lineHeight: 1.25,
+    },
+    icon: FreedrawIcon,
+  },
   [FONT_FAMILY.Excalifont]: {
     metrics: {
       unitsPerEm: 1000,

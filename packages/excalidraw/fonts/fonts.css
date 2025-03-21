@@ -33,3 +33,11 @@
   style: normal;
   display: swap;
 }
+
+@font-face {
+  font-family: "CustomChinese";
+  src: url(./CustomChinese/CustomChinese-Regular.woff2) format("woff2");
+  font-weight: normal;
+  style: normal;
+  display: swap;
+}
